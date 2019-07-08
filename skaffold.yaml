@@ -18,8 +18,6 @@ profiles:
     tagPolicy:
       envTemplate:
         template: "{{.DOCKER_REGISTRY}}/lichen782/ttc-connectors-ranking:{{.DIGEST_HEX}}"
-    artifacts:
-    - docker: {}
     local: {}
   deploy:
     helm:
